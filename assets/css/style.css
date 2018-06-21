@@ -1,0 +1,33 @@
+.grid-container {
+    display: grid;
+    grid-template-areas: 'header header header header header header ' 'images images images images sidebar sidebar';
+    grid-gap: 10px;
+    padding: 10px;
+    margin: auto;
+  }
+  
+#animals {
+    grid-area: header;
+}
+  
+.button {
+    margin: 2px;
+    padding: 3px;
+    font-weight: bold;
+}
+  
+#image {
+    grid-area: images;
+}
+  
+#userinput {
+    grid-area: sidebar;
+    text-align: right;
+}
+  
+#gif {
+    display: inline-block;
+    margin: 2px;
+    text-align: center;
+    font-weight: bold;
+}
